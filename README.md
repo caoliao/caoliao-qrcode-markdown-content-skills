@@ -11,3 +11,11 @@
 ```
 https://qr61.cn/{segment1}/{segment2}
 ```
+
+## 安装
+
+进入 skills 目录
+
+```sh
+git clone https://github.com/cli-fe/caoliao-qrcode-markdown-content-skill.git
+```
