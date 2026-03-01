@@ -10,7 +10,12 @@
 
 ```
 https://qr61.cn/{segment1}/{segment2}
+https://qr71.cn/{segment1}/{segment2}
+https://qr69.cn/{segment1}/{segment2}
+https://h.qr61.cn/{segment1}/{segment2}
 ```
+
+URL 末尾可以带 query 参数。
 
 ## 安装
 
