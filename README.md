@@ -1,12 +1,14 @@
-# 草料二维码 Markdown 内容获取 Skill
+**English** | [中文](./README.zh-cn.md)
 
-用于从草料二维码链接中获取页面的 Markdown 格式内容。
+# Caoliao QR Code Markdown Content Skill
 
-## 功能说明
+Retrieve Markdown-formatted content from Caoliao QR code links.
 
-当用户提供草料二维码的短链接（如 `https://qr61.cn/oZwrwZ/q2wR1WE`）时，本 Skill 会自动识别并获取该链接对应的 Markdown 内容返回给用户。
+## Overview
 
-## 支持的 URL 格式
+When a user provides a Caoliao QR code short link (e.g. `https://qr61.cn/oZwrwZ/q2wR1WE`), this skill automatically recognizes the link and returns the corresponding page content in Markdown format.
+
+## Supported URL Formats
 
 ```
 https://qr61.cn/{segment1}/{segment2}
@@ -15,32 +17,32 @@ https://qr69.cn/{segment1}/{segment2}
 https://h.qr61.cn/{segment1}/{segment2}
 ```
 
-URL 末尾可以带 query 参数。
+URLs may include query parameters.
 
-## 安装
+## Installation
 
-### 通过 npx skills 安装（推荐）
+### Via npx skills (Recommended)
 
 ```sh
 npx skills add caoliao/caoliao-qrcode-markdown-content-skills
 ```
 
-安装到指定 agent：
+Install for a specific agent:
 
 ```sh
 npx skills add caoliao/caoliao-qrcode-markdown-content-skills -a cursor
 npx skills add caoliao/caoliao-qrcode-markdown-content-skills -a claude-code
 ```
 
-全局安装（跨项目可用）：
+Install globally (available across all projects):
 
 ```sh
 npx skills add caoliao/caoliao-qrcode-markdown-content-skills -g
 ```
 
-### 通过 git clone 安装
+### Via git clone
 
-进入 skills 目录：
+Navigate to your skills directory:
 
 ```sh
 git clone https://github.com/caoliao/caoliao-qrcode-markdown-content-skills.git
