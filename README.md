@@ -19,8 +19,29 @@ URL 末尾可以带 query 参数。
 
 ## 安装
 
-进入 skills 目录
+### 通过 npx skills 安装（推荐）
 
 ```sh
-git clone https://github.com/cli-fe/caoliao-qrcode-markdown-content-skill.git
+npx skills add caoliao/caoliao-qrcode-markdown-content-skills
+```
+
+安装到指定 agent：
+
+```sh
+npx skills add caoliao/caoliao-qrcode-markdown-content-skills -a cursor
+npx skills add caoliao/caoliao-qrcode-markdown-content-skills -a claude-code
+```
+
+全局安装（跨项目可用）：
+
+```sh
+npx skills add caoliao/caoliao-qrcode-markdown-content-skills -g
+```
+
+### 通过 git clone 安装
+
+进入 skills 目录：
+
+```sh
+git clone https://github.com/caoliao/caoliao-qrcode-markdown-content-skills.git
 ```
